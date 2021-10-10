@@ -141,6 +141,7 @@ function App() {
         <button type="submit" className="btn btn-primary">
           {isLogin ? 'Login' : 'Register'}
         </button>
+        <br /><br />
         <button type="button" onClick={handleResetPassword} className="btn btn-secondary btn-sm">Reset Password</button>
 
       </form>
